@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: WebMotors.WebMotors.Utils
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.057 s <<< FAILURE! - in WebMotors.WebMotors.Utils
+WebMotors.WebMotors.Utils.initializationError  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.Exception: Method createDriver() should be static
+
+WebMotors.WebMotors.Utils.initializationError  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method quitDriver() should be static
+
