@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: WebMotors.WebMotors.AdicionarFavoritos
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 38.475 s <<< FAILURE! - in WebMotors.WebMotors.AdicionarFavoritos
+WebMotors.WebMotors.AdicionarFavoritos.ct09AddFavoritos  Time elapsed: 38.451 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".SearchBar__input"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SAO-6Y5V2J2', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\jparisem\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 02868fc82001cc0635c26a13dfd10e47
+*** Element info: {Using=class name, value=SearchBar__input}
+	at WebMotors.WebMotors.AdicionarFavoritos.ct09AddFavoritos(AdicionarFavoritos.java:32)
+
